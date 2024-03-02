@@ -44,6 +44,7 @@ namespace XafModulesByReflection.Win {
             }
 #endif
             try {
+                //HACK https://docs.devexpress.com/eXpressAppFramework/118047/app-shell-and-base-infrastructure/application-solution-components/ways-to-register-a-module
                 winApplication.Setup(winApplication.ApplicationName, winApplication.ConnectionString,
                     ConfigurationManager.AppSettings["Modules"].Split(';'));
                 //winApplication.Setup();
