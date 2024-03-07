@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.8.34525.116
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33130.400
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XafModulesByReflection.Module", "XafModulesByReflection.Module\XafModulesByReflection.Module.csproj", "{C38F6DC0-A88D-4ED9-8D9D-70F61EFF6DB9}"
 EndProject
@@ -13,14 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XafModulesByReflection.Modu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XafModulesByReflection.Win", "XafModulesByReflection.Win\XafModulesByReflection.Win.csproj", "{5FD69064-1742-4C30-8195-26F87A102E73}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Customers", "Customers\Customers.csproj", "{9D63901F-C3D1-43CD-85E7-19F430ABA792}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{310CD200-422B-403E-BD20-E6FFA4269794}"
 	ProjectSection(SolutionItems) = preProject
 		README.md = README.md
 	EndProjectSection
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Invoicing", "Invoicing\Invoicing.csproj", "{3056A854-82E6-43A0-A488-1BB8CE7B8B9B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -59,18 +55,6 @@ Global
 		{5FD69064-1742-4C30-8195-26F87A102E73}.EasyTest|Any CPU.Build.0 = EasyTest|Any CPU
 		{5FD69064-1742-4C30-8195-26F87A102E73}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5FD69064-1742-4C30-8195-26F87A102E73}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9D63901F-C3D1-43CD-85E7-19F430ABA792}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9D63901F-C3D1-43CD-85E7-19F430ABA792}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9D63901F-C3D1-43CD-85E7-19F430ABA792}.EasyTest|Any CPU.ActiveCfg = EasyTest|Any CPU
-		{9D63901F-C3D1-43CD-85E7-19F430ABA792}.EasyTest|Any CPU.Build.0 = EasyTest|Any CPU
-		{9D63901F-C3D1-43CD-85E7-19F430ABA792}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9D63901F-C3D1-43CD-85E7-19F430ABA792}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3056A854-82E6-43A0-A488-1BB8CE7B8B9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3056A854-82E6-43A0-A488-1BB8CE7B8B9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3056A854-82E6-43A0-A488-1BB8CE7B8B9B}.EasyTest|Any CPU.ActiveCfg = EasyTest|Any CPU
-		{3056A854-82E6-43A0-A488-1BB8CE7B8B9B}.EasyTest|Any CPU.Build.0 = EasyTest|Any CPU
-		{3056A854-82E6-43A0-A488-1BB8CE7B8B9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3056A854-82E6-43A0-A488-1BB8CE7B8B9B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

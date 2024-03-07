@@ -42,6 +42,9 @@ namespace XafModulesByReflection.Web {
                 WebApplication.Instance.DatabaseUpdateMode = DatabaseUpdateMode.UpdateDatabaseAlways;
             }
 #endif
+            //WebApplication.Instance.Setup(WebApplication.Instance.ApplicationName, WebApplication.Instance.ConnectionString,
+            //        ConfigurationManager.AppSettings["Modules"].Split(';'));
+            
             WebApplication.Instance.Setup();
             WebApplication.Instance.Start();
         }

@@ -139,4 +139,7 @@
   <Target Name="AfterBuild">
     <Copy SourceFiles="$(TargetPath)" DestinationFolder="..\..\XafModulesByReflection\XafModulesByReflection.Win\bin\Debug\" />
   </Target>
+ <Target Name="AfterBuild">
+    <Copy SourceFiles="$(TargetPath)" DestinationFolder="..\..\XafModulesByReflection\XafModulesByReflection.Web\bin\Debug\" />
+  </Target>
 </Project>
